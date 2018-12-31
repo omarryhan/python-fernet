@@ -18,10 +18,6 @@ class InvalidToken(Exception):
     pass
 
 
-class InvalidSignature(Exception):
-    pass
-
-
 class Fernet:
     """
     Pure python Ferent module
